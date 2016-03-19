@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--><head>
+    <title>P2P舆情产品</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link href="http://fonts.useso.com/css?family=Open+Sans:400italic,600italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.useso.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- CSS Bootstrap & Custom -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/templatemo-misc.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/templatemo-main.css">
+        
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    
+    <!-- JavaScripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <!--[if lt IE 8]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+        </div>
+    <![endif]-->
+
+    <!-- hightchart and d3 -->
+    <script type="text/javascript" src="http://cdn.hcharts.cn/jquery/jquery-1.8.3.min.js"></script>
+   <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script type="text/javascript" src="http://cdn.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="http://cdn.hcharts.cn/highcharts/modules/exporting.js" type="text/javascript"></script>   
+    <script src="js/d3.v3.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="home">
+        <div class="site-header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="left-header">
+                                <span><i class="fa fa-phone"></i>15021038110</span>
+                                <span><i class="fa fa-envelope"></i>richard.more@sjtu.edu.cn</span>
+                            </div> <!-- /.left-header -->
+                        </div> <!-- /.col-md-6 -->
+                        <div class="col-md-6 col-sm-6">
+                            <div class="right-header text-right">
+                                <ul class="social-icons">
+                                    <li><a href="#" class="fa fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-instagram"></a></li>
+                                    <li><a href="#" class="fa fa-twitter"></a></li>
+                                    <li><a href="#" class="fa fa-google-plus"></a></li>
+                                </ul>
+                            </div> <!-- /.left-header -->
+                        </div> <!-- /.col-md-6 -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.container -->
+            </div> <!-- /.top-header -->
+            <div class="main-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-6">
+                            <div class="logo">
+                                <h1><a href="#" title="Dreri">P2P舆情分析</a></h1>
+                            </div> <!-- /.logo -->
+                        </div> <!-- /.col-md-4 -->
+                        <div class="col-md-8 col-sm-8 col-xs-6">
+                            <div class="menu text-right hidden-sm hidden-xs" style="display: block;">
+                                <ul>
+                                    <li><a href="#home" class="current">Home</a></li>
+                                    <li><a href="#services" class="">我们的产品</a></li>
+                                    <li><a href="#portfolio" class="">行业分析</a></li>
+                                    <li><a href="#about" class="">关于我们</a></li>
+                                    <li><a href="#contact" class="">联系我们</a></li>
+                                </ul>
+                            </div> <!-- /.menu -->
+                        </div> <!-- /.col-md-8 -->
+                    </div> <!-- /.row -->
+                    <div class="responsive-menu text-right visible-xs visible-sm">
+                        <a href="#" class="toggle-menu fa fa-bars"></a>
+                        <div class="menu" style="display: none;">
+                            <ul>
+                                <li><a href="#home" class="current">Home</a></li>
+                                <li><a href="#services" class="">我们的产品</a></li>
+                                <li><a href="#portfolio" class="">行业分析</a></li>
+                                <li><a href="#about" class="">关于我们</a></li>
+                                <li><a href="#contact" class="">联系我们</a></li>
+                            </ul>
+                        </div> <!-- /.menu -->
+                    </div> <!-- /.responsive-menu -->
+                </div> <!-- /.container -->
+            </div> <!-- /.header -->
+        </div> <!-- /.site-header -->
+    </div> <!-- /#home -->
+
+    <div class="flexslider">
+        <ul class="slides">
+            <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+                <img src="images/banner01.jpg" alt="" draggable="false">
+                <div class="flex-caption animated bounceInDown" style="display: block;">
+                    <h2>P2P行业</h2>
+                    <span></span>
+                    <p>P2P网贷平台在2007年乘着互联网浪潮引入国内，2013年开始蓬勃发展，与此同时出现了越来越多的问题平台、跑路平台。<br>
+                        面对变幻莫测P2P平台和产品，用户们都在困惑：到底哪些P2P平台比较靠谱？各个平台差别在哪里？<br>哪个平台的资金安全最有保障？如何快速选择适合自己的P2P产品？</p>
+                </div>
+            </li>
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
+                <img src="images/banner02.jpg" alt="" draggable="false">
+                <div class="flex-caption animated bounceInDown" style="display: block;">
+                    <h2>舆情产品</h2>
+                    <span></span>
+                    <p>爬取公开数据，通过语义分析、情感分析、知识图谱等文本分析的方法，结合与P2P行业相关的结构化数据的综合分析，<br>有效洞察P2P行业的整体发展状态与各P2P企业的发展状态，以及政府、媒体与公众对于P2P行业的认知与态度。
+                    </p>
+                </div>
+            </li>
+        </ul>
+    <ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+    
+
+    <div id="services" class="section-cotent">
+        <div class="container">
+            <div class="title-section text-center">
+                <h2>我们的维度</h2>
+                <span></span>
+            </div> <!-- /.title-section -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <div class="service-header">
+                            <i class="fa fa-umbrella"></i>
+                            <h3>行业整体热度</h3>
+                        </div>
+                        <div class="service-description">
+                           我们从网上爬取了大量的行业新闻，统计其热度。
+                        </div>
+                    </div> <!-- /.service-item -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <div class="service-header">
+                            <i class="fa fa-desktop"></i>
+                            <h3>行业关键词</h3>
+                        </div>
+                        <div class="service-description">
+我们在大量行业新闻的基础上，采取主题分析，关键词分析，聚类分析等技术，获取行业讨论的维度。                        </div>
+                    </div> <!-- /.service-item -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <div class="service-header">
+                            <i class="fa fa-cogs"></i>
+                            <h3>行业感情与态度</h3>
+                        </div>
+                        <div class="service-description">
+                            我们爬取了网上关于行业的政府的相关政策文件以及观点，媒体报道，以及用户点评数据，采取情感分析，获取行业的情感与态度。
+                        </div>
+                    </div> <!-- /.service-item -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <div class="service-header">
+                            <i class="fa fa-heart"></i>
+                            <h3>品牌关键词</h3>
+                        </div>
+                        <div class="service-description">
+                            我们爬取了公司层面的媒体新闻和用户对平台的点评文本，采取主题分析，获取每一个品牌的讨论维度
+                        </div>
+                    </div> <!-- /.service-item -->
+                </div> <!-- /.col-md-3 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#services -->
+
+    <div id="portfolio" class="section-content">
+        <div class="container">
+            <div class="title-section text-center">
+                <h2>Our Portfolio</h2>
+                <span></span>
+            </div> <!-- /.title-section -->
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="portfolio-thumb">
+                        <!--<img src="images/portfolio/item1.jpg" alt="Portfolio Item 1"> -->
+                        <div id="IndustryHot"></div>
+                        <script src="js/IndustryHot.js" type="text/javascript"></script>
+
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="portfolio-thumb">
+                        <!--<img src="images/portfolio/item2.jpg" alt="Portfolio Item 2">-->
+                        <div id="IndustrySentiment"></div>
+                        <script src="js/IndustrySentiment.js" type="text/javascript"></script>
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->
+             
+            </div> <!-- /.row -->
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="portfolio-thumb">
+                        <!--<img src="images/portfolio/item1.jpg" alt="Portfolio Item 1"> -->
+                        <div id="IndustryKeyword"></div>
+                        <script src="js/IndustryKeyWord.js" type="text/javascript"></script>
+                        
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="portfolio-thumb">
+                        <!--<img src="images/portfolio/item2.jpg" alt="Portfolio Item 2">-->
+                        <div id="IndustryTopic"></div>
+                        <link href="css/IndustryTopic.css" type="text/css" rel="stylesheet" />
+                        <script src="js/IndustryTopic.js" type="text/javascript"></script>
+                        <!--
+                        <div class="overlay">
+                            <div class="inner">
+                                <h4><a data-rel="lightbox" href="images/portfolio/item2.jpg">行业关键词的维度</a></h4>
+                                <span>Industry Topic</span>
+                            </div>
+                        </div> <!-- /.overlay -->  
+                        -->
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->
+           
+            </div> <!-- /.row -->
+
+
+            <div class="row">
+                 <script type="text/javascript" src="data/companydata.js"></script>
+                <script type="text/javascript">
+                function showCompanyInfo(company_id){
+                    alert(company_id);
+                    companyShowPlace = document.getElementById("companyShowPlace");
+                    companyShowPlace.innerHTML = companydata[company_id]
+                }
+                </script>
+                <div class="col-md-6 col-sm-6">
+                    <div class="portfolio-thumb">
+                        <!--<img src="images/portfolio/item5.jpg" alt="Portfolio Item 5">-->
+                        <script type="text/javascript" src="angularjs/angular.min.js"></script>
+                         <script type="text/javascript" src="angularjs/app.js"></script>
+                        <script type="text/javascript" src="angularjs/controllers.js"></script>
+                        <script type="text/javascript" src="angularjs/services.js"></script>
+                        <style type="text/css">
+                        table{
+                         background-color:rgba(0,0,0,0);
+                        }          
+                        table, td, th
+                        {
+                        border:1px solid green;
+                        }
+                        th
+                        {
+                        background-color:green;
+                        color:white; 
+                        }
+                        </style> 
+                        <div ng-app="F1FeederApp" ng-controller="driversController">
+                            
+                            <input type="text" ng-model="nameFilter" placeholder="Search..."/>
+                            <table>
+                                <thead>
+                                <tr><th colspan="4">Drivers Championship Standings</th></tr>
+                                </thead>
+                                <tbody>
+                                <tr style="height:20 width:40 color:sienna" ><td>Index</td><td>Name</td><td>Contructors</td><td>Point</td></tr>
+                                <tr ng-repeat="driver in driversList | filter: nameFilter">
+      
+                                <td>{{$index + 1}}</td>
+                                <td>
+                                    <img style="height:20px;width:40px;" src="angularjs/img/{{driver.nationality}}.jpg" onclick="showCompanyInfo({{$index}});" />
+                                    {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
+                                </td>
+                                <td>{{driver.Constructors[0].name}}</td>
+                                <td>{{driver.points}}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="portfolio-thumb">
+                        <div id="companyShowPlace"></div>
+                        
+                        
+                    </div> <!-- /.portfolio-thumb -->
+                </div> <!-- /.col-md-3 -->          
+            </div> <!-- /.row -->
+
+        </div> <!-- /.container -->
+    </div> <!-- /#portfolio -->
+
+
+    <div id="about" class="section-cotent">
+        <div class="container">
+            <div class="title-section text-center">
+                <h2>关于我们</h2>
+                <span></span>
+            </div> <!-- /.title-section -->
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="widget-title">简介</h4>
+                    <p>我们是一群90后的上海交通大学的学生，我们队伍有5个人。 <br><br></p>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-4 our-skills">
+                    <h4 class="widget-title">Our Skills</h4>
+                    <ul class="progess-bars">
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">NLP 90%</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">HTML CSS 75%</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">WordPress 85%</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Marketing 95%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- /.col-md-3 -->
+            </div> <!-- /.row -->
+            <div class="row">
+                <div class="our-team">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/member-1.jpg" alt="Tracy">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                    </ul>
+                                </div> <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Tracy One</h5>
+                                <span>Product Developer</span>
+                                <p>Mauris vel lorem non odio accumsan scelerisque. Nullam id augue vel nibh soll.</p>
+                            </div>
+                        </div> <!-- /.team-member -->
+                    </div> <!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/member-2.jpg" alt="Mary">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                    </ul>
+                                </div> <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Mary Two</h5>
+                                <span>Product Designer</span>
+                                <p>Mauris vel lorem non odio accumsan scelerisque. Nullam id augue vel nibh soll.</p>
+                            </div>
+                        </div> <!-- /.team-member -->
+                    </div> <!-- /.col-md-4 -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="images/team/member-3.jpg" alt="Julia">
+                                <div class="overlay">
+                                    <ul class="social">
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                    </ul>
+                                </div> <!-- /.overlay -->
+                            </div>
+                            <div class="inner-content">
+                                <h5>Julia Three</h5>
+                                <span>Product Manager</span>
+                                <p>Mauris vel lorem non odio accumsan scelerisque. Nullam id augue vel nibh soll.</p>
+                            </div>
+                        </div> <!-- /.team-member -->
+                    </div> <!-- /.col-md-4 -->
+                </div> <!-- /.our-team -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#about -->
+
+    <div id="contact" class="section-cotent">
+        <div class="container">
+            <div class="title-section text-center">
+                <h2>Contact Us</h2>
+                <span></span>
+            </div> <!-- /.title-section -->
+            <div class="row">
+                <div class="col-md-7 col-sm-6">
+                    <h4 class="widget-title">Send Us a Message</h4>
+                    <div class="contact-form">
+                        <p class="full-row">
+                            <label for="name-id">Your Name:</label>
+                            <input type="text" id="name-id" name="name-id">
+                        </p>
+                        <p class="full-row">
+                            <label for="email-id">Email:</label>
+                            <input type="text" id="email-id" name="email-id">
+                        </p>
+                        <p class="full-row">
+                            <label for="subject-id">Subject:</label>
+                            <input type="text" id="subject-id" name="subject-id">
+                        </p>
+                        <p class="full-row">
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" rows="6"></textarea>
+                        </p>
+                        <input class="mainBtn" type="submit" name="" value="Send Message">
+                    </div>
+                </div> <!-- /.col-md-3 -->
+                <div class="col-md-5 col-sm-6">
+                    <h4 class="widget-title">Find Us</h4>
+                    <div class="map-holder">
+                        
+                    </div> <!-- /.map-holder -->
+                    <div class="contact-info">
+                        <p>上海交通大学</p>
+                        <span><i class="fa fa-home"></i>上海市徐汇区番禺路655号上海交通大学</span>
+                        <span><i class="fa fa-phone"></i>15021038110</span>
+                        <span><i class="fa fa-envelope"></i>richard.more@sjtu.edu.cn</span>
+                    </div>
+                </div> <!-- /.col-md-3 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#contact -->
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <p>Copyright © 2084 Company Name. More Templates </p>
+                </div> <!-- /.col-md-6 -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="go-top">
+                        <a href="#" id="go-top">
+                            <i class="fa fa-angle-up"></i>
+                            Back to Top
+                        </a>
+                    </div>
+                </div> <!-- /.col-md-6 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery.lightbox.js"></script>
+    <script src="js/custom.js"></script>
+
+
+
+<div id="lightbox" style="display:none;"><a href="#" class="lightbox-close lightbox-button"></a><div class="lightbox-nav"><a href="#" class="lightbox-previous lightbox-button"></a><a href="#" class="lightbox-next lightbox-button"></a></div><div href="#" class="lightbox-caption"><p></p></div></div></body></html>
