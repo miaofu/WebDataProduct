@@ -5,21 +5,18 @@
                 type: 'column'
             },
             title: {
-                text: 'My first Highcharts chart'
+                text: '2015年行业的主题比例数量'
             },
             xAxis: {
-                categories: ['my', 'first', 'chart']
+                categories: ['Topic1', 'Topic2', 'Topic3']
             },
             yAxis: {
                 title: {
-                    text: 'something'
+                    text: '主题数量'
                 }
             },
-            series: [{
-                name: 'Jane',
-                data: [1, 3, tmp]
-            }, {
-                name: 'John',
+            series: [ {
+                name: '主题',
                 data: [5, 7, 3]
             }]
         });

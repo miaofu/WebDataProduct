@@ -1,35 +1,109 @@
-{
- "name": "flare",
- "children": [
-  {
-   "name": "analytics",
+ {
+   "name": "主题",
    "children": [
     {
-     "name": "cluster",
+     "name": "topic1",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "银行", "size": 9000.18},
+      {"name": "支付", "size": 8000.16},
+      {"name": "存管", "size": 8000.15},
+      {"name": "资金", "size": 6000.10},
+      {"name": "托管", "size": 6000.09},
+      {"name": "第三方", "size": 6000.07},
+      {"name": "接口", "size": 6000.07}
      ]
     },
     {
-     "name": "graph",
-     "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
+     "name": "topic2",
+      "children": [
+      {"name": "借贷", "size": 9000.18},
+      {"name": "万华", "size": 8000.16},
+      {"name": "提供者", "size": 7000.15},
+      {"name": "规定", "size": 6000.10},
+      {"name": "民间", "size": 6000.09},
+      {"name": "担保责任", "size": 6000.07},
+      {"name": "司法解释", "size": 6000.07}
      ]
     },
     {
-     "name": "optimization",
+     "name": "topic3",
      "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
+      {"name": "全国", "size": 9000.21},
+      {"name": "成交额", "size": 8000.18},
+      {"name": "期限", "size": 7000.16},
+      {"name": "网贷", "size": 7000.15},
+      {"name": "月份", "size": 7000.10},
+      {"name": "第一网", "size": 6000.09},
+      {"name": "平均", "size": 6000.07},
+      {"name": "工作日", "size": 6000.07}
      ]
+
+    },
+    {
+     "name": "topic4",
+     "children": [
+      {"name": "互联网", "size": 9000.21},
+      {"name": "金融", "size": 8000.18},
+      {"name": "监管", "size": 7000.16},
+      {"name": "发展", "size": 6000.15},
+      {"name": "协会", "size": 6000.10},
+      {"name": "企业", "size": 6000.09},
+      {"name": "非法", "size": 6000.07},
+      {"name": "创新", "size": 6000.07}
+     ]
+
+    },
+    {
+     "name": "topic5",
+     "children": [
+      {"name": "成交量", "size": 8000.21},
+      {"name": "网贷", "size": 7000.18},
+      {"name": "亿元", "size": 7000.16},
+      {"name": "环比", "size": 6000.15},
+      {"name": "行业", "size": 6000.10},
+      {"name": "余额", "size": 6000.09},
+      {"name": "下降", "size": 6000.04},
+      {"name": "上升", "size": 6000.02}
+     ]
+
+    },
+    {
+     "name": "topic6",
+     "children": [
+      {"name": "收益率", "size": 8000.21},
+      {"name": "下降", "size": 7000.18},
+      {"name": "利率", "size": 7000.16},
+      {"name": "收益", "size": 6000.15},
+      {"name": "综合", "size": 6000.10},
+      {"name": "降息", "size": 6000.09},
+      {"name": "网贷", "size": 6000.04},
+      {"name": "成本", "size": 6000.02}
+     ]
+
+    },
+    {
+     "name": "topic7",
+     "children": [
+      {"name": "保险公司", "size": 8000.21},
+      {"name": "担保", "size": 7000.18},
+      {"name": "保险", "size": 7000.16},
+      {"name": "投资者", "size": 6000.15},
+      {"name": "问题", "size": 6000.10}
+     ]
+
     }
+
+  
+
+
+   
+ 
+   
+   
+
+
+
+
    ]
   }
- ]
-}
+

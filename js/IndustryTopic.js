@@ -1,6 +1,6 @@
 
 var root;
-var width = 400,
+var width = 700,
     height = 400;
 var force = d3.layout.force()
     .linkDistance(80)
