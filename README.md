@@ -9,6 +9,7 @@
   这是一个正在进行的前端平台。
 
   平台设计的目的是能够从舆情的角度，包括 媒体曝光，政府观点，用户口碑等方面帮助用户在P2P投资时作出更为明智的选择。
+  ![image](https://github.com/miaofu/WebDataProduct/blob/master/show/0.png)
   industry
   ![image](https://github.com/miaofu/WebDataProduct/blob/master/show/1.png)
   company 
