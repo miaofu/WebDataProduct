@@ -13,5 +13,5 @@
   industry
   ![image](https://github.com/miaofu/WebDataProduct/blob/master/show/1.png)
   company 
-  ![image](https://github.com/miaofu/WebDataProduct/blob/master/show/2.1.png)
+  ![image](https://github.com/miaofu/WebDataProduct/blob/master/2.1.png)
   ![iamge](https://github.com/miaofu/WebDataProduct/blob/master/show/3.png)
